@@ -1,0 +1,56 @@
+#vocales {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.vocal-desordenada, .vocal {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+#vocales-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#vocales-container .vocal {
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.vocal .delete-btn {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.vocal.active .delete-btn {
+    display: block;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}

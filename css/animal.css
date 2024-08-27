@@ -1,0 +1,22 @@
+#animal-image {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+}
+
+#opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button.correcto {
+    background-color: green;
+    color: white;
+}
+
+button.incorrecto {
+    background-color: red;
+    color: white;
+}
